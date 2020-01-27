@@ -20,8 +20,8 @@
     </properties>
 
     <modules>
-        <module>binart-main</module>
-        <module>binart-perm</module>
+        <module>binart-start</module>
+        <module>binart-user</module>
     </modules>
 
     <dependencies>
@@ -47,7 +47,7 @@
 
             <dependency>
                 <groupId>com.binart</groupId>
-                <artifactId>binart-perm</artifactId>
+                <artifactId>binart-user</artifactId>
                 <version>0.0.1-SNAPSHOT</version>
             </dependency>
         </dependencies>
