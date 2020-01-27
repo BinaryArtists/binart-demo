@@ -21,6 +21,7 @@
 
     <modules>
         <module>binart-main</module>
+        <module>binart-perm</module>
     </modules>
 
     <dependencies>
@@ -43,8 +44,22 @@
                 <artifactId>binart-main</artifactId>
                 <version>0.0.1-SNAPSHOT</version>
             </dependency>
+
+            <dependency>
+                <groupId>com.binart</groupId>
+                <artifactId>binart-perm</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
+
+    <repositories>
+        <repository>
+            <id>nexus-aliyun</id>
+            <name>Nexus aliyun</name>
+            <url>http://maven.aliyun.com/nexus/content/groups/public</url>
+        </repository>
+    </repositories>
 
     <build>
         <plugins>
