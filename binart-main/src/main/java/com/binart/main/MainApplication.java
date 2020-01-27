@@ -1,13 +1,13 @@
-package com.binart.tech;
+package com.binart.main;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class TechApplication {
+public class MainApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(TechApplication.class, args);
+        SpringApplication.run(MainApplication.class, args);
     }
 
 }
