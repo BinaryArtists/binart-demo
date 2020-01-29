@@ -11,9 +11,9 @@
     </parent>
 
     <groupId>com.binart</groupId>
-    <artifactId>binart-main</artifactId>
+    <artifactId>binart-start</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>main</name>
+    <name>binart-start</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -68,6 +68,12 @@
         <dependency>
             <groupId>com.binart</groupId>
             <artifactId>binart-user</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.binart</groupId>
+            <artifactId>binart-group</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
     </dependencies>
