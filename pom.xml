@@ -16,12 +16,13 @@
 
     <properties>
         <java.version>1.8</java.version>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+<!--        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>-->
     </properties>
 
     <modules>
         <module>binart-start</module>
         <module>binart-user</module>
+        <module>binart-group</module>
     </modules>
 
     <dependencies>
@@ -41,7 +42,7 @@
         <dependencies>
             <dependency>
                 <groupId>com.binart</groupId>
-                <artifactId>binart-main</artifactId>
+                <artifactId>binart-start</artifactId>
                 <version>0.0.1-SNAPSHOT</version>
             </dependency>
 
@@ -50,16 +51,22 @@
                 <artifactId>binart-user</artifactId>
                 <version>0.0.1-SNAPSHOT</version>
             </dependency>
+
+            <dependency>
+                <groupId>com.binart</groupId>
+                <artifactId>binart-group</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
-    <repositories>
-        <repository>
-            <id>nexus-aliyun</id>
-            <name>Nexus aliyun</name>
-            <url>http://maven.aliyun.com/nexus/content/groups/public</url>
-        </repository>
-    </repositories>
+<!--    <repositories>-->
+<!--        <repository>-->
+<!--            <id>nexus-aliyun</id>-->
+<!--            <name>Nexus aliyun</name>-->
+<!--            <url>http://maven.aliyun.com/nexus/content/groups/public</url>-->
+<!--        </repository>-->
+<!--    </repositories>-->
 
     <build>
         <plugins>
