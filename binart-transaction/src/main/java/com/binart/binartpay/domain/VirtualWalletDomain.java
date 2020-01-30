@@ -79,7 +79,7 @@ public class VirtualWalletDomain {
         BigDecimal totalAvaliableBalance = this.balance.subtract(this.frozenAmount);
 
         if (this.isAllowedOverdraft) {
-            totalAvaliableBalance += this.overdraftAmount;
+//            totalAvaliableBalance += this.overdraftAmount;
         }
 
         return totalAvaliableBalance;

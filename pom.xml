@@ -11,7 +11,7 @@
     <groupId>com.binart</groupId>
     <artifactId>example</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>tech</name>
+    <name>example</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -20,22 +20,19 @@
     </properties>
 
     <modules>
+        <module>binart-common</module>
         <module>binart-start</module>
         <module>binart-user</module>
         <module>binart-group</module>
+        <module>binart-auth</module>
+        <module>binart-points</module>
+        <module>binart-system</module>
+        <module>binart-wallet</module>
+        <module>binart-transaction</module>
     </modules>
 
     <dependencies>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter</artifactId>
-        </dependency>
 
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
-        </dependency>
     </dependencies>
 
     <dependencyManagement>
@@ -59,14 +56,6 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
-
-<!--    <repositories>-->
-<!--        <repository>-->
-<!--            <id>nexus-aliyun</id>-->
-<!--            <name>Nexus aliyun</name>-->
-<!--            <url>http://maven.aliyun.com/nexus/content/groups/public</url>-->
-<!--        </repository>-->
-<!--    </repositories>-->
 
     <build>
         <plugins>

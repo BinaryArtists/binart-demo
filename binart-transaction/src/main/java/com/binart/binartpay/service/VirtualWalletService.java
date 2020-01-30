@@ -19,6 +19,7 @@ public class VirtualWalletService {
 
     public VirtualWalletDomain getVirtualWallet (Long walletId) {
         VirtualWalletEntity walletEntity = this.virtualWalletRepo.getOne(walletId);
+//BeanUtil
 
         VirtualWalletDomain walletDomain = BeanUtil.copy(walletEntity, VirtualWalletDomain.class);
 

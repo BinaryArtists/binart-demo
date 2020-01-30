@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.binart</groupId>
-    <artifactId>binart-pay</artifactId>
+    <artifactId>binart-transaction</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>binart-pay</name>
+    <name>binart-transaction</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -37,12 +37,12 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
-            <exclusions>
-                <exclusion>
-                    <groupId>org.junit.vintage</groupId>
-                    <artifactId>junit-vintage-engine</artifactId>
-                </exclusion>
-            </exclusions>
+        </dependency>
+
+        <dependency>
+            <groupId>com.github.BinaryArtists</groupId>
+            <artifactId>jv-utils</artifactId>
+            <version>0.1.6</version>
         </dependency>
 
         <!-- inner depend -->
@@ -52,6 +52,13 @@
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
     </dependencies>
+
+    <repositories>
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
+    </repositories>
 
     <build>
         <plugins>

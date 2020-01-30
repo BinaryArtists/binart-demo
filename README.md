@@ -6,6 +6,8 @@
 * user
 * perm
 
+[放弃JitPack，发布Android Library到Bintray、JCenter](https://www.jianshu.com/p/9f81d5b5a451)
+
 ## 思想
 
 ### OO
