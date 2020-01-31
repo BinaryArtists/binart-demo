@@ -39,6 +39,12 @@
         <dependencies>
             <dependency>
                 <groupId>com.binart</groupId>
+                <artifactId>binart-commonn</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.binart</groupId>
                 <artifactId>binart-start</artifactId>
                 <version>0.0.1-SNAPSHOT</version>
             </dependency>
@@ -52,6 +58,36 @@
             <dependency>
                 <groupId>com.binart</groupId>
                 <artifactId>binart-group</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.binart</groupId>
+                <artifactId>binart-auth</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.binart</groupId>
+                <artifactId>binart-points</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.binart</groupId>
+                <artifactId>binart-system</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.binart</groupId>
+                <artifactId>binart-wallet</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.binart</groupId>
+                <artifactId>binart-transaction</artifactId>
                 <version>0.0.1-SNAPSHOT</version>
             </dependency>
         </dependencies>

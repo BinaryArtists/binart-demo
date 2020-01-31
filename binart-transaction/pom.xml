@@ -39,11 +39,11 @@
             <scope>test</scope>
         </dependency>
 
-        <dependency>
-            <groupId>com.github.BinaryArtists</groupId>
-            <artifactId>jv-utils</artifactId>
-            <version>0.1.6</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>com.github.BinaryArtists</groupId>-->
+<!--            <artifactId>jv-utils</artifactId>-->
+<!--            <version>0.1.6</version>-->
+<!--        </dependency>-->
 
         <!-- inner depend -->
         <dependency>
