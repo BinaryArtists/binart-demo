@@ -1,10 +1,10 @@
-package com.binart.binartpoints;
+package com.binart.binartcredit;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class BinartPointsApplicationTests {
+class BinartCreditApplicationTests {
 
     @Test
     void contextLoads() {

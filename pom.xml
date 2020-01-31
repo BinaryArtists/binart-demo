@@ -5,7 +5,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.1.9.RELEASE</version>
+        <version>2.2.4.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.binart</groupId>
@@ -25,7 +25,7 @@
         <module>binart-user</module>
         <module>binart-group</module>
         <module>binart-auth</module>
-        <module>binart-points</module>
+        <module>binart-credit</module>
         <module>binart-system</module>
         <module>binart-wallet</module>
         <module>binart-transaction</module>
@@ -69,7 +69,7 @@
 
             <dependency>
                 <groupId>com.binart</groupId>
-                <artifactId>binart-points</artifactId>
+                <artifactId>binart-credit</artifactId>
                 <version>0.0.1-SNAPSHOT</version>
             </dependency>
 
@@ -92,6 +92,14 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
+
+    <repositories>
+        <repository>
+            <id>nexus-aliyun</id>
+            <name>Nexus aliyun</name>
+            <url>http://maven.aliyun.com/nexus/content/groups/public</url>
+        </repository>
+    </repositories>
 
     <build>
         <plugins>

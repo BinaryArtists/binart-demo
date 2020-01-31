@@ -1,4 +1,4 @@
-package com.binart.binartpoints.entity;
+package com.binart.binartcredit.entity;
 
 import lombok.Data;
 
