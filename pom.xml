@@ -16,7 +16,7 @@
 
     <properties>
         <java.version>1.8</java.version>
-<!--        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>-->
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
     <modules>
@@ -92,14 +92,6 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
-
-    <repositories>
-        <repository>
-            <id>nexus-aliyun</id>
-            <name>Nexus aliyun</name>
-            <url>http://maven.aliyun.com/nexus/content/groups/public</url>
-        </repository>
-    </repositories>
 
     <build>
         <plugins>

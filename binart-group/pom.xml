@@ -36,6 +36,14 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+
+        <!-- inner dependencies -->
+        <dependency>
+            <groupId>com.binart</groupId>
+            <artifactId>binart-common</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+
     </dependencies>
 
     <build>

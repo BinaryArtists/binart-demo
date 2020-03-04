@@ -21,7 +21,7 @@
 每一层都分别有描述数据、逻辑的对象
 
 * 数据访问层：Entity、Repo
-* 业务逻辑层：Service、Bo
+* 业务逻辑层：Service、Bo（本案例不使用Bo）
 * 接口层：Controller、Vo（属于DTO）
 
 ### DDD
@@ -41,3 +41,8 @@
 ### JPA
     
 [继承jpa Repository 写自定义方法查询](https://blog.csdn.net/bird_tp/article/details/83651651)
+
+### Remote Jar Repositories
+
+```
+```

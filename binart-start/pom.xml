@@ -64,7 +64,7 @@
             <version>1.2.41</version>
         </dependency>
 
-        <!-- inner depend -->
+        <!-- inner dependencies -->
         <dependency>
             <groupId>com.binart</groupId>
             <artifactId>binart-user</artifactId>

@@ -1,10 +1,10 @@
 package com.binart.binartpay.service;
 
-import com.binart.binartcommon.utils.BeanUtil;
 import com.binart.binartpay.domain.VirtualWalletDomain;
 import com.binart.binartpay.entity.VirtualWalletEntity;
 import com.binart.binartpay.repo.TransactionRepo;
 import com.binart.binartpay.repo.VirtualWalletRepo;
+import com.binart.binartutils.utils.BeanUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -19,7 +19,6 @@ public class VirtualWalletService {
 
     public VirtualWalletDomain getVirtualWallet (Long walletId) {
         VirtualWalletEntity walletEntity = this.virtualWalletRepo.getOne(walletId);
-//BeanUtil
 
         VirtualWalletDomain walletDomain = BeanUtil.copy(walletEntity, VirtualWalletDomain.class);
 
